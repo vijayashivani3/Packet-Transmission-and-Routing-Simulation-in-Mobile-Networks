@@ -1,0 +1,9 @@
+# Sample NAM file
+# Sample NAM file
+# Node definitions
+set n0 [node 0]
+set n1 [node 1]
+# Example movement
+$ns at 0.0 "$n0 set X_ 50; $n0 set Y_ 100"
+$ns at 0.0 "$n1 set X_ 200; $n1 set Y_ 300"
+
